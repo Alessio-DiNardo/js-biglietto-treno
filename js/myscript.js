@@ -21,6 +21,6 @@ console.log(price);
 
 if (userAge < 18) {
         console.log((20 / 100) * price.toFixed);
-} else if (firstAge > 65){
+} else if (userAge > 65){
         console.log((40 / 100) * price.toFixed);
 }
