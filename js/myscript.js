@@ -9,7 +9,11 @@ let yearOfBirth = currentYear - userAge;
 
 console.log(yearOfBirth);
 
-const kilometers = prompt("insert your kilometers")
+const distance = parseInt(prompt("insert your kilometers"))
+
+const kilometers = 0.21;
+
+let price = kilometers * distance;
 
 //const underAge = 20%;
 
