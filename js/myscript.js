@@ -13,14 +13,24 @@ const distance = parseInt(prompt("insert your kilometers"))
 
 const priceForKm = 0.21;
 
-
 let price = priceForKm * distance;
 
 console.log(price);
 
 
+
+
 if (userAge < 18) {
-        console.log.toFixed(2)((20 / 100) * price);
-} else if (userAge > 65){
-        console.log.toFixed(2)((40 / 100) * price);
-}
+        let discount =(20 / 100) * price;
+        let totale = price - discount;
+        document.getElementById().innerHTML = totale.toFixed(2)
+        console.log(discount.toFixed(2));
+
+} else if (userAge > 65) {
+        let discount =(40 / 100) * price;
+        let totale = price - discount;
+        document.getElementById().innerHTML = totale.toFixed(2)
+        console.log(discount.toFixed(2))
+} else {}
+
+
