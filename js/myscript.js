@@ -15,6 +15,8 @@ const kilometers = 0.21;
 
 let price = kilometers * distance;
 
+console.log(price);
+
 //const underAge = 20%;
 
 //const overAge = 40%;
